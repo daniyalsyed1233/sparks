@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class DDImage extends StatelessWidget {
+  const DDImage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Image.asset(
