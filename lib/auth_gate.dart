@@ -17,6 +17,8 @@ class AuthGate extends StatelessWidget {
               GoogleProviderConfiguration(
                   clientId:
                       '738249251640-08i8fgh1in7lt44db97gonbgqpj3c47e.apps.googleusercontent.com'),
+              FacebookProviderConfiguration(
+                  clientId: 'e13bfec40e8bfc94d8271915d889e9d1'),
             ],
             headerBuilder: (context, constraints, shrinkOffset) {
               return Padding(
